@@ -1,4 +1,4 @@
-# DCGAN in Tensorflow
+# Art and Design DCGAN in Tensorflow
 
 Modified version of Taehoon Kim’s tensorflow implementation of DCGAN `https://carpedm20.github.io/faces/` with a focus on generating paintings and soon graphic design.
 
