@@ -176,7 +176,9 @@ def visualize(sess, dcgan, config, option):
     samples = sess.run(dcgan.sampler, feed_dict={dcgan.z: z_sample})
     save_images(samples, [image_frame_dim, image_frame_dim], './samples/test_%s.png' % strftime("%Y-%m-%d-%H-%M-%S", gmtime()))
   elif option == 1:
-    p =samples.shape[0] for i in range(0,p): scipy.misc.imsave('./samples/single_%s_%s.png' %(idx,i), samples[i])
+    p =samples.shape[0]
+    for i in range(0,p):
+      scipy.misc.imsave('./samples/single_%s_%s.png' %(idx,i), samples[i])
     values = np.arange(0, 1, 1./config.batch_size)
     for idx in xrange(dcgan.z_dim):
       print(" [*] %d" % idx)
