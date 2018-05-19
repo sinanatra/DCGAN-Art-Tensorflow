@@ -14,7 +14,7 @@ It includes a script to scrape WikiArt, one to uniform images in a format that t
 You can find a zip of my dataset in:
 `https://drive.google.com/open?id=17Cm2352V9G1tR4kii5yHI_KUkevLC67_`
 
-Ceckpoints here:
+Checkpoints here:
 `https://drive.google.com/open?id=1yABe4LsWeDQz5p5IO2AYJPosGOgqtD2Z`
 
 You will have to convert the images to RGB and resize them with: `uniform.py` by changing `path` with your directory
