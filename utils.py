@@ -217,8 +217,9 @@ def visualize(sess, dcgan, config, option):
 
       try:
         make_gif(samples, './samples/test_gif_%s.gif' % (idx))
-      except:
+      except Exception as e:
         save_images(samples, [image_frame_dim, image_frame_dim], './samples/test_%s.png' % strftime("%Y-%m-%d-%H-%M-%S", gmtime()))
+        print(e)
   elif option == 3:
     values = np.arange(0, 1, 1./config.batch_size)
     for idx in xrange(dcgan.z_dim):
