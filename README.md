@@ -17,6 +17,9 @@ You can find a zip of my dataset in:
 Checkpoints here:
 `https://drive.google.com/open?id=1yABe4LsWeDQz5p5IO2AYJPosGOgqtD2Z`
 
+Colab Notebook:
+`https://colab.research.google.com/drive/18RglimpA1JH7bRbTXtxx9fAbDl60sFVQ#scrollTo=YLBwMdxMW3PR`
+
 You will have to convert the images to RGB and resize them with: `uniform.py` by changing `path` with your directory
 
 Train your own dataset:
