@@ -4,6 +4,8 @@ Modified version of Taehoon Kim’s tensorflow implementation of DCGAN `https://
 
 It includes a script to scrape WikiArt, one to uniform images in a format that the Dcgan can work with and a Google Colab Notebook to train it on a free GPU.
 
+![](https://pbs.twimg.com/media/DdvgUjdVwAAyANO.jpg:large)
+
 ## Prerequisites
 
 - Python 2.7 or Python 3.3+
